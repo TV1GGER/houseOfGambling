@@ -217,12 +217,168 @@ h2 {
   justify-content: space-around;
 }
 
+.banner-center-bg-line1 {
+  animation: movingLine1 3s infinite linear;
+}
+
+@keyframes movingLine1 {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(0px, 10px);
+	}
+
+	20% {
+		transform: translate(0px, 20px);
+	}
+
+	30% {
+		transform: translate(0px, 30px);
+	}
+
+	40% {
+		transform: translate(0px, 40px);
+	}
+
+	50% {
+		transform: translate(0px, 50px);
+	}
+
+	60% {
+		transform: translate(0px, 40px);
+	}
+
+	70% {
+		transform: translate(0px, 30px);
+	}
+
+	80% {
+		transform: translate(0px, 20px);
+	}
+
+	90% {
+		transform: translate(0px, 10px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
 .banner-center-bg-line2 {
-  padding-top: 47.03px;
+  animation: movingLine2 5.1s infinite linear;
+}
+
+@keyframes movingLine2 {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(0px, -5px);
+	}
+
+	20% {
+		transform: translate(0px, -10px);
+	}
+
+	30% {
+		transform: translate(0px, -20px);
+	}
+
+	40% {
+		transform: translate(0px, -30px);
+	}
+
+	50% {
+		transform: translate(0px, -40px);
+	}
+
+	60% {
+		transform: translate(0px, -30px);
+	}
+
+	70% {
+		transform: translate(0px, -20px);
+	}
+
+	80% {
+		transform: translate(0px, -10px);
+	}
+
+	90% {
+		transform: translate(0px, -5px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
 }
 
 .banner-center-bg-line3 {
-  padding-top: 36px;
+  animation: movingLine3 4.2s infinite linear;
+}
+
+@keyframes movingLine3 {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(0px, -5px);
+	}
+
+	20% {
+		transform: translate(0px, -8px);
+	}
+
+	30% {
+		transform: translate(0px, -11px);
+	}
+
+	40% {
+		transform: translate(0px, -14px);
+	}
+
+	50% {
+		transform: translate(0px, -15px);
+	}
+
+	60% {
+		transform: translate(0px, -14px);
+	}
+
+	70% {
+		transform: translate(0px, -11px);
+	}
+
+	80% {
+		transform: translate(0px, -8px);
+	}
+
+	90% {
+		transform: translate(0px, -5px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+.banner-center-bg-line1 {
+  opacity: 20%;
+}
+
+.banner-center-bg-line2 {
+  padding-top: 47.03px;
+  opacity: 60%;
+}
+
+.banner-center-bg-line3 {
+  padding-top: 28px;
+  opacity: 40%;
 }
 
 .banner-blog {
