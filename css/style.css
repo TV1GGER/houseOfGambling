@@ -260,6 +260,48 @@ h2 {
   cursor: pointer;
 }
 
+.banner-center-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 17.8px;
+  margin-top: -39px;
+}
+
+.banner-center-bg-line1, .banner-center-bg-line2, .banner-center-bg-line3 {
+  height: 1334px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.banner-center-bg-line2 {
+  padding-top: 47.03px;
+}
+
+.banner-center-bg-line3 {
+  padding-top: 36px;
+}
+
 .main {
   width: 100%;
   height: 100%;
