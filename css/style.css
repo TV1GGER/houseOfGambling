@@ -92,7 +92,16 @@ body {
   cursor: pointer;
 }
 
-.nav-link:hover {
+.nav-link a {
+  color: var(--main-clean-white-ffffff, #FFF);
+  font-family: "Lexend";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+.nav-link a:hover {
   color: var(--main-blue-478-bf-9, #478BF9);
 }
 
@@ -696,6 +705,10 @@ h3 {
   margin-top: 24px;
   margin-bottom: 24px;
 }
+.blog-message-text-container a {
+  display: block;
+  text-decoration: none;
+}
 
 .review-card {
   width: 467px;
@@ -726,6 +739,12 @@ h3 {
   font-weight: 400;
   line-height: 28px;
   gap: 14px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.review-card:hover {
+  background: var(--main-blue-478-bf-9, #478BF9);
 }
 
 .review-card-date {
@@ -821,6 +840,13 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+.footer-pages a {
+  text-decoration: none;
+  color: var(--main-clean-white-ffffff, #FFF);
+}
+.footer-pages a:hover {
+  color: var(--main-blue-478-bf-9, #478BF9);
 }
 
 .footer-pages div {
