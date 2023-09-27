@@ -5,11 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House of Gambling</title>
-    <script src="./js/index.js" type="module" defer></script>
-    <script src="./js/simplebar.js" type="module" defer></script>
+    <script src="./js/simplebar.js" defer></script>
+    <script src="./js/index.js" defer></script>
     <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
     <link rel="stylesheet" href="./css/simplebar.css">
     <link rel="stylesheet" href="./css/style.css">
+    <noscript>
+      <style>
+        /**
+        * Reinstate scrolling for non-JS clients
+        */
+        .simplebar-content-wrapper {
+          scrollbar-width: auto;
+          -ms-overflow-style: auto;
+        }
+    
+        .simplebar-content-wrapper::-webkit-scrollbar,
+        .simplebar-hide-scrollbar::-webkit-scrollbar {
+          display: initial;
+          width: initial;
+          height: initial;
+        }
+      </style>
+    </noscript>
   </head>
   <body>
     <header class="header">
