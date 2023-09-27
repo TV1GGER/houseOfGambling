@@ -806,7 +806,7 @@ h3 {
   width: 574px;
   height: 574px;
   bottom: 0;
-  right: -159px;
+  right: 0;
   border-radius: 574px;
   opacity: 0.7;
   background: var(--main-blue-hover, linear-gradient(256deg, #478BF9 0%, #9DADF2 100%));
