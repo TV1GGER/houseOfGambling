@@ -42,7 +42,7 @@ body {
   width: 100%;
   background: var(--main-navy-blue-110-a-1-d, #110A1D);
   padding-left: 140px;
-  padding-right: 140px;
+  padding-right: 125px;
   padding-bottom: 8px;
 }
 
@@ -50,7 +50,11 @@ body {
   display: flex;
   max-width: 1640px;
   width: 100%;
-  padding: 24px 48px;
+  margin-top: 15px;
+  padding-top: 18px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 18px;
   justify-content: space-between;
   align-items: center;
   border-radius: 64px;
@@ -96,9 +100,9 @@ body {
 .header-buttons-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  gap: 14px;
+  gap: 4px;
 }
 
 .btn-language, .btn-secondary, .btn-sign-up {
@@ -144,7 +148,7 @@ body {
 
 .body-content-wrapper {
   width: 1920px;
-  height: 1048px;
+  height: 1018px;
   flex-shrink: 0;
   background: var(--main-navy-blue-110-a-1-d, #110A1D);
   padding-left: 140px;
@@ -409,6 +413,15 @@ h2 {
   margin-top: 140px;
 }
 
+.banner-blog-header {
+  color: var(--main-clean-white-ffffff, #FFF);
+  font-family: 'Lexend';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
 h3 {
   color: var(--main-clean-white-ffffff, #FFF);
   font-family: 'Lexend';
@@ -551,7 +564,7 @@ h3 {
 .footer-container {
   display: flex;
   width: 1920px;
-  padding: 40px 140px 24px 140px;
+  padding: 40px 140px 16px 140px;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
@@ -577,6 +590,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  padding-bottom: 5px;
   & a {
     text-decoration: none;
     color: var(--main-clean-white-ffffff, #FFF);
@@ -617,6 +631,14 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+
+.footer-socials-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
 }
 
 .footer-icon {
