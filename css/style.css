@@ -643,6 +643,7 @@ h2 {
           align-items: center;
   gap: 24px;
   margin-top: 140px;
+  z-index: 30;
 }
 
 .banner-blog-header {
