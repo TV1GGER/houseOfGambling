@@ -154,6 +154,7 @@ body {
   padding-left: 140px;
   padding-right: 140px;
   overflow: hidden;
+  z-index: 20;
 }
 
 .banner {
@@ -221,6 +222,7 @@ h2 {
   line-height: 32px;
   text-transform: uppercase;
   cursor: pointer;
+  z-index: 25;
 }
 
 .banner-center-bg {
@@ -542,6 +544,7 @@ h3 {
   background: var(--main-blue-hover, linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.40) 100%));
   opacity: 0.55;
   filter: blur(150px);
+  z-index: 4;
 }
 
 .dot-light {
@@ -554,6 +557,7 @@ h3 {
   opacity: 0.7;
   background: var(--main-blue-hover, linear-gradient(256deg, #478BF9 0%, #9DADF2 100%));
   filter: blur(325px);
+  z-index: 5;
 }
 
 .footer {
