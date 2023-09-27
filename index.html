@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House of Gambling</title>
-    <script src="./js/index.js" defer></script>
+    <script src="./js/index.js" type="module" defer></script>
+    <script src="./js/simplebar.js" type="module" defer></script>
     <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
+    <link rel="stylesheet" href="./css/simplebar.css">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
@@ -480,6 +482,7 @@
               <div class="banner-blog">
                 <h3 class="banner-blog-header">Blog</h3>
                 <div class="blog-message-container">
+                  <div class="blog-message-text-container-wrapper" data-simplebar>
                   <div class="blog-message-text-container">
                   <div class="review-card">
                     <div class="review-card-text">Payment methods: Skrill, Neteller, webmoney, Bank transfer</div>
@@ -499,8 +502,9 @@
                   </div>
                 </div>
               </div>
-              <div class="dot-light"></div>
+            </div>
               </div>
+              <div class="dot-light"></div>
         </section>
       </main> 
     </div>

@@ -631,6 +631,12 @@ h3 {
 }
 
 .blog-message-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 531px;
   height: 595px;
   /*align-self: stretch;*/
@@ -638,11 +644,62 @@ h3 {
   border: 3px solid var(--main-blue-478-bf-9, #478BF9);
   background: var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
   /*backdrop-filter: blur(10px);*/
-  padding: 24px;
-  overflow: auto;
-  overflow-x: hidden;
+  padding: 0px 16px 0px 24px;
+  overflow: hidden;
 }
 
+.blog-message-text-container-wrapper {
+  width: 491px;
+  height: 595px;
+  /*overflow-y:scroll;*/
+  /*scroll-snap-type: x proximity*/
+  /*overflow-x: hidden;*/
+  /*direction: ltr;*/
+  /*scrollbar-width: thin;*/
+  /*overscroll-behavior: contain;*/
+}
+
+/*.simplebar-scrollbar {
+  width: 8px;
+  height: 403px;
+}*/
+.simplebar-track .simplebar-vertical {
+  width: 8px;
+  height: 104px;
+  border-radius: 10px;
+  background: var(--main-blue-478-bf-9, #478BF9);
+}
+
+.simplebar-scrollbar:before {
+  width: 8px;
+  height: 403px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 96px;
+  border-radius: 10px;
+  background-color: var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
+}
+
+.simplebar-track .simplebar-vertical .simplebar-scrollbar:before {
+  top: 0;
+  bottom: 0;
+}
+
+/*.blog-message-text-container-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.blog-message-text-container-wrapper::-webkit-scrollbar-track {
+  background: var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
+  border-radius: 10px;
+}
+
+.blog-message-text-container-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--main-blue-478-bf-9, #478BF9);
+}*/
 .blog-message-text-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -656,6 +713,8 @@ h3 {
       -ms-flex-align: start;
           align-items: flex-start;
   gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .review-card {
