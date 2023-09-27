@@ -455,6 +455,17 @@ h3 {
   height: 100%;
 }
 
+.line-light {
+  width: 226.458px;
+  height: 1302.469px;
+  position: absolute;
+  top: 120.33px;
+  transform: rotate(-54.311deg);
+  background: var(--main-blue-hover, linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.40) 100%));
+  opacity: 0.55;
+  filter: blur(150px);
+}
+
 .dot-light {
   position: absolute;
   width: 574px;
@@ -486,6 +497,7 @@ h3 {
   border-right: 4px solid var(--main-blue-478-bf-9, #478BF9);
   border-left: 4px solid var(--main-blue-478-bf-9, #478BF9);
   background: var(--main-deep-blue-1-e-1231, #1E1231);
+  z-index: 30;
 }
 
 .footer-pages {
