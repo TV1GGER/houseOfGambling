@@ -107,6 +107,11 @@ body {
   cursor: pointer;
 }
 
+.btn-language {
+  width: 75px;
+  height: 48px;
+}
+
 .btn-language, .btn-secondary, .btn-sign-up {
   border: 2px solid var(--additional-purple-9-dadf-2, #9DADF2);
   background: var(--main-navy-blue-110-a-1-d, #110A1D);
