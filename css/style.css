@@ -18,8 +18,12 @@
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url("../assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf");
+  font-family: "Lexend";
+  src: url("../assets/fonts/Lexend/Lexend-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("../assets/fonts/Futura/FuturaPT-Light.ttf");
 }
 html {
   width: 100%;
@@ -37,7 +41,7 @@ body {
   width: 100%;
   background: var(--main-navy-blue-110-a-1-d, #110A1D);
   padding-left: 140px;
-  padding-right: 140px;
+  padding-right: 125px;
   padding-bottom: 8px;
 }
 
@@ -47,7 +51,11 @@ body {
   display: flex;
   max-width: 1640px;
   width: 100%;
-  padding: 24px 48px;
+  margin-top: 15px;
+  padding-top: 18px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 18px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -113,13 +121,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 14px;
+  gap: 4px;
 }
 
 .btn-language, .btn-secondary, .btn-sign-up {
@@ -172,13 +180,14 @@ body {
 
 .body-content-wrapper {
   width: 1920px;
-  height: 1048px;
+  height: 1018px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   background: var(--main-navy-blue-110-a-1-d, #110A1D);
   padding-left: 140px;
   padding-right: 140px;
   overflow: hidden;
+  z-index: 20;
 }
 
 .banner {
@@ -275,6 +284,7 @@ h2 {
   line-height: 32px;
   text-transform: uppercase;
   cursor: pointer;
+  z-index: 25;
 }
 
 .banner-center-bg {
@@ -633,6 +643,17 @@ h2 {
           align-items: center;
   gap: 24px;
   margin-top: 140px;
+  z-index: 30;
+}
+
+.banner-blog-header {
+  color: var(--main-clean-white-ffffff, #FFF);
+  font-family: "Lexend";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  cursor: default;
 }
 
 h3 {
@@ -779,6 +800,7 @@ h3 {
   opacity: 0.55;
   -webkit-filter: blur(150px);
           filter: blur(150px);
+  z-index: 4;
 }
 
 .dot-light {
@@ -786,12 +808,13 @@ h3 {
   width: 574px;
   height: 574px;
   bottom: 0;
-  right: -159px;
+  right: 0;
   border-radius: 574px;
   opacity: 0.7;
   background: var(--main-blue-hover, linear-gradient(256deg, #478BF9 0%, #9DADF2 100%));
   -webkit-filter: blur(325px);
           filter: blur(325px);
+  z-index: 5;
 }
 
 .footer {
@@ -804,7 +827,7 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   width: 1920px;
-  padding: 40px 140px 24px 140px;
+  padding: 40px 140px 16px 140px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -845,6 +868,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  padding-bottom: 5px;
 }
 .footer-pages a {
   text-decoration: none;
@@ -893,6 +917,23 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+
+.footer-socials-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
 }
 
 .footer-icon {
