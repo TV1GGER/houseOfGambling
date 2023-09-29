@@ -959,20 +959,48 @@ h3 {
   gap: 7px;
 }
 
-.footer-icon {
+.footer-icon1, .footer-icon2, .footer-icon3, .footer-icon4, .footer-icon5, .footer-icon6, .footer-icon7, .footer-icon8 {
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.footer-svg-fill {
+.footer-svg-fill1, .footer-svg-fill2, .footer-svg-fill3, .footer-svg-fill4, .footer-svg-fill5, .footer-svg-fill6, .footer-svg-fill7, .footer-svg-fill8 {
   fill: #478BF9;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.footer-icon:hover .footer-svg-fill {
-  fill: url(#paint0_linear_4301_201);
+.footer-icon1:hover .footer-svg-fill1 {
+  fill: url(#paint0_linear_4614_202);
+}
+
+.footer-icon2:hover .footer-svg-fill2 {
+  fill: url(#paint0_linear_4614_2022);
+}
+
+.footer-icon3:hover .footer-svg-fill3 {
+  fill: url(#paint0_linear_4614_2023);
+}
+
+.footer-icon4:hover .footer-svg-fill4 {
+  fill: url(#paint0_linear_4614_2024);
+}
+
+.footer-icon5:hover .footer-svg-fill5 {
+  fill: url(#paint0_linear_4614_2025);
+}
+
+.footer-icon6:hover .footer-svg-fill6 {
+  fill: url(#paint0_linear_4614_2026);
+}
+
+.footer-icon7:hover .footer-svg-fill7 {
+  fill: url(#paint0_linear_4614_2027);
+}
+
+.footer-icon8:hover .footer-svg-fill8 {
+  fill: url(#paint0_linear_4614_2027);
 }
 
 .rotateSvgVis {
