@@ -1190,8 +1190,12 @@ h3 {
   }
 
   .burgerRest {
+    display: inline-block;
     cursor: pointer;
+    transition: .3s;
   }
+
+  
 
   .line-light {
   /*height: 81.081px;*/
