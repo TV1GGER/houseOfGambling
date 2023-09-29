@@ -35,7 +35,6 @@ html {
 
 body {
   width: 100%;
-  /*height: auto;*/
   height: auto;
   background: var(--main-navy-blue-110-a-1-d, #110A1D);
 }
@@ -58,7 +57,6 @@ body {
   display: flex;
   max-width: 1640px;
   height: 96px;
-  //margin-top: 20px;
   padding-top: 18px;
   padding-left: 48px;
   padding-right: 48px;
@@ -163,18 +161,11 @@ body {
 
 .main {
   width: 100%;
-  //min-height: 800px;
-  //height: 100%;
 }
 
 .body-content-wrapper {
   height: 100vh;
-  /*width: 100%;*/
-  //display: flex;
-  //flex-direction: column;
-  //justify-content: space-between;
   max-width: 1920px;
-  //height:3018px;
   flex-shrink: 0;
   background: var(--main-navy-blue-110-a-1-d, #110A1D);
   padding-left: 7vw;
@@ -190,7 +181,6 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   margin: 0 auto;
-  /*gap: 42px;*/
 }
 
 .banner-title-container {
@@ -256,12 +246,10 @@ h2 {
   width: 100%;
   max-width:333.798px;
   height: 100vh;
-  /*max-height: 1334.22px;*/
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  //gap: 37.8px;
   margin-top: -39px;
   &svg {
     width:100%;
@@ -773,14 +761,12 @@ h3 {
   .banner-center-bg {
     width:130vw;
     height: fit-content;
-    /*max-height: 1334.22px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5vw;
     margin-top: 32px;
-    //transform: rotate(90deg);
     &svg {
       width:100%;
     }
@@ -793,14 +779,11 @@ h3 {
   .banner-center-bg-line1, .banner-center-bg-line2, .banner-center-bg-line3 {
     width: 105vw;
     height: 99.173px;
-    //height: 105vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    //transform: rotate(90deg);
     padding: 0;
-    //gap: 2px;
   }
 
   .banner-center-bg-line1 {
@@ -1190,19 +1173,20 @@ h3 {
   }
 
   .burgerRest {
+    display: inline-block;
     cursor: pointer;
+    transition: .3s;
   }
 
+  
+
   .line-light {
-  /*height: 81.081px;*/
   max-width: 266.334px;
   transform: rotate(-54.311deg);
   position: absolute;
   left: 0px;
   top: 102.712px;
-  //fill: linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.40) 100%);
   opacity: 0.55;
-  //filter: blur(39.734619140625px);
   }
 
   .dot-light {
@@ -1259,15 +1243,12 @@ h3 {
   }
 
   .line-light {
-    /*height: 81.081px;*/
     max-width: 180.334px;
     transform: rotate(-54.311deg);
     position: absolute;
     left: 0px;
     top: -20.712px;
-    //fill: linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.40) 100%);
     opacity: 0.55;
-    //filter: blur(39.734619140625px);
     }
 
 }
